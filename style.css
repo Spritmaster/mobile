@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    margin-top: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;
+    font-family: "Barlow Semi Condensed", "ARIAL", sans-serif;
+}
+
+.container{
+    display: grid;
+    width: 100%;
+    max-width: 327px;
+    grid-template-columns: 327px ;
+    grid-template-rows: 444px  240px 222px 384px 438px ;
+    row-gap: 24px;
+}
+
+.all-box{
+    padding: 26px 32px 32px 32px;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.247378);
+    border-radius: 8px;
+    color: #fff;
+    z-index: -4;
+}
+.head{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 18px;
+    z-index: 2;
+}
+
+.open-text{
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    gap: 4px;
+    z-index: 2;
+    
+}
+
+.main-info{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 16px;
+    z-index: 24;
+}
+
+.botom-info{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    opacity: 0.7;
+    z-index: 2;
+}
+span{
+    opacity: 0.5;
+    z-index: 2;
+}
+
+/* OTher styles */
+
+
+.box{
+    background-color: #733FC8;
+    /* grid-column: 1 /3; */
+    grid-row: 1/2;
+    position: relative;
+    
+}
+.daniel-text{
+    z-index: 20;
+}
+.bag{
+    position: absolute;
+    top: 0;
+    right: 24px;
+    z-index: -1;
+   
+}
+.daniel{
+    color: #fcfcfc;
+}
+
+.box-john{
+    background-color:  #48556A;
+    /* grid-column: 3 /4; */
+    grid-row: 2/3;
+}
+.box-kira {
+    background-color:#fff ;
+    color:  #48556A;
+    /* grid-column: 4 /5; */
+    grid-row: 5/6;
+}
+   
+
+.box-harmon{
+    background-color:#fff ;
+    color: #48556A;
+    /* grid-column: 1/2; */
+    grid-row: 3/4;
+}
+
+.box-abram{
+    background-color:  #19202D;
+    /* grid-column: 2/4; */
+    grid-row: 4/5;
+    
+}
+
+.abram{
+    color: #ECF2F8;
+}
